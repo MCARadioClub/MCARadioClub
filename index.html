@@ -21,19 +21,33 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="calendar.html">Calendar</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                About
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="about/who-we-are.html">Who We Are</a></li>
+                <li><a class="dropdown-item" href="about/officers.html">Officers</a></li>
+                <li><a class="dropdown-item" href="about/club-history.html">Club History</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="about/legal/bylaws.html">Bylaws</a></li>
+                <li><a class="dropdown-item" href="about/legal/constitution.html">Constitution</a></li>
               </ul>
             </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Technical Info
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="technical-info/radios.html">Station Radios</a></li>
+                <li><a class="dropdown-item" href="technical-info/antennas.html">Station Antennas</a></li>
+                <li><a class="dropdown-item" href="technical-info//mcu2.html">MCU 2</a></li>        
+              </ul>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link disabled">Disabled</a>
             </li>
@@ -43,9 +57,16 @@
     </nav>
 
 
-    <div class="alert alert-primary" role="alert">
-      This is an example of an alert. I do not know how I could use this for the site.
-    </div>
+    <!-- 
+    
+    <div class="alert alert-danger" role="alert">
+      This is an example of an alert. Could add and API call to the NWS to see if there is a severse weather warning, and add details here. 
+    </div> 
+    
+    I want to make this a thing in the future. Not a priority right now, as I want to finish the rest of the site. 
+    I need to make sure that one user doesn't make too many API calls. To counteract that, I could make API calls on the local server every x mins, then put this there if it is identified as an issue. 
+
+    -->
     
     <div class="container my-1">
       <h1>Home</h1>
